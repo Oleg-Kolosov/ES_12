@@ -7,7 +7,7 @@
     // Problem
     word.replace('🐰', '🦧')    // '🦧🐰🐰🐼🐼🐼'
 
-    // Solution with regular exspression
+    // Solution with regular expression
     word.replace(/🐰/g, '🦧')   // '🦧🦧🦧🐼🐼🐼'
 
     // ES 12
